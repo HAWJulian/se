@@ -9,6 +9,8 @@ public class ImageEditor extends JFrame{
 	public ImageEditor(){ 
 	createMenuBar();
 	setDefaultCloseOperation(EXIT_ON_CLOSE); 
+	panel = new ImageEditorPanel(); 
+	add(panel); 
 	setTitle("Ich fuege einen Titel hinzu");
 	setSize(400, 300); 
 	setVisible(true); 
