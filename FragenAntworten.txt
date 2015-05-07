@@ -1,0 +1,15 @@
+1. .jar, .war, .ear, .class, .mtj.tmp (für Mobile) Dateien. Diese werden dann nicht mehr commited.
+
+2. git clone [Link]
+
+3. git pull
+
+4. git pull, dann git commit -a -m "Kommentar" (oder git add ., dann git commit -m "Kommentar")
+
+5. git push {origin master}
+
+6. git push origin [Tagname]
+
+7. git diff --name-only --diff-filter=U
+
+8. Ja, lokal und in Teams mit eigenem git-Server
