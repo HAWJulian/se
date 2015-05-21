@@ -4,7 +4,8 @@
 
 3. git pull
 
-4. git pull, dann git commit -a -m "Kommentar" (oder git add ., dann git commit -m "Kommentar")
+4. git pull, dann git commit -a -m "Kommentar" (oder git add ., dann git commit -m "Kommentar") und anschlie§end git push
+(eventuell merge conflict bzw. conflict)
 
 5. git push {origin master}
 
